@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreLayer", "CoreLayer\CoreLayer.csproj", "{FA7941F5-CDEE-4A25-A9EB-1861928520F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{F392EE2D-6AA4-4303-92F6-9A6E30DC8DE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusnessLayer", "BusnessLayer\BusnessLayer.csproj", "{0B2DC4A1-CD57-4863-85C6-833A85C3FFE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityLayer", "EntityLayer\EntityLayer.csproj", "{6D9C42B6-FE46-4A7E-9085-7B2AE953FBE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectConsoleUI", "ProjectConsoleUI\ProjectConsoleUI.csproj", "{532F3210-BF0F-4289-BE7E-1D7B92F2C1C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi_ServiceLayer", "WebApi_ServiceLayer\WebApi_ServiceLayer.csproj", "{C4550781-C508-4F36-8576-417B876A9E5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp_WebUI", "BlazorApp_WebUI\BlazorApp_WebUI.csproj", "{7628BD81-5AD6-4E1A-A170-2A12CBF8A38D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA7941F5-CDEE-4A25-A9EB-1861928520F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7941F5-CDEE-4A25-A9EB-1861928520F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7941F5-CDEE-4A25-A9EB-1861928520F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7941F5-CDEE-4A25-A9EB-1861928520F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F392EE2D-6AA4-4303-92F6-9A6E30DC8DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F392EE2D-6AA4-4303-92F6-9A6E30DC8DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F392EE2D-6AA4-4303-92F6-9A6E30DC8DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F392EE2D-6AA4-4303-92F6-9A6E30DC8DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B2DC4A1-CD57-4863-85C6-833A85C3FFE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B2DC4A1-CD57-4863-85C6-833A85C3FFE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B2DC4A1-CD57-4863-85C6-833A85C3FFE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B2DC4A1-CD57-4863-85C6-833A85C3FFE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D9C42B6-FE46-4A7E-9085-7B2AE953FBE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9C42B6-FE46-4A7E-9085-7B2AE953FBE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D9C42B6-FE46-4A7E-9085-7B2AE953FBE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9C42B6-FE46-4A7E-9085-7B2AE953FBE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{532F3210-BF0F-4289-BE7E-1D7B92F2C1C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532F3210-BF0F-4289-BE7E-1D7B92F2C1C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532F3210-BF0F-4289-BE7E-1D7B92F2C1C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532F3210-BF0F-4289-BE7E-1D7B92F2C1C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4550781-C508-4F36-8576-417B876A9E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4550781-C508-4F36-8576-417B876A9E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4550781-C508-4F36-8576-417B876A9E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4550781-C508-4F36-8576-417B876A9E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7628BD81-5AD6-4E1A-A170-2A12CBF8A38D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7628BD81-5AD6-4E1A-A170-2A12CBF8A38D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7628BD81-5AD6-4E1A-A170-2A12CBF8A38D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7628BD81-5AD6-4E1A-A170-2A12CBF8A38D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D835D60C-F171-41F2-A1D8-24F5EC0615AB}
+	EndGlobalSection
+EndGlobal
